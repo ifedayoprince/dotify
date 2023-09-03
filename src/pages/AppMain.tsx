@@ -38,15 +38,11 @@ const AppMain = () => {
 														className="books-searchbar"
 														searchContainer=".books"
 														searchIn=".item-text,.item-title"
-														expandable
+														
 													/>
 						</NavLeft>
 						<NavTitle sliding>Books</NavTitle>
 						<NavRight>
-							<Link
-								searchbarEnable=".books-searchbar"
-								iconMaterial="search"
-							/>
 							<Link
 								sortableToggle=".sortable"
 								iconMaterial="numbers"
