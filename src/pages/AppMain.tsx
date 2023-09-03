@@ -33,16 +33,15 @@ const AppMain = () => {
 			<View main>
 				<Page>
 					<Navbar large transparent sliding={false} >
-						<NavLeft>
-							<Searchbar
+
+						<NavTitle sliding>Books</NavTitle>
+						<NavRight>
+													<Searchbar
 														className="books-searchbar"
 														searchContainer=".books"
 														searchIn=".item-text,.item-title"
 														
 													/>
-						</NavLeft>
-						<NavTitle sliding>Books</NavTitle>
-						<NavRight>
 							<Link
 								iconMaterial="numbers"
 							/>
