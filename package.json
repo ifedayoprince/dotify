@@ -1,0 +1,45 @@
+{
+  "name": "teem",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "fake": "tsc src/datagen.ts --outFile datagen.cjs --module system && node src/datagen.cjs && del src/datagen.cjs"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.0",
+    "@faker-js/faker": "^8.0.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "^20.4.2",
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "framework7": "^8.2.0",
+    "framework7-react": "^8.2.0",
+    "gsap": "^3.12.2",
+    "material-icons": "^1.13.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "redux": "^4.2.1",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "lightningcss": "^1.21.5",
+    "redis": "^4.6.7",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
