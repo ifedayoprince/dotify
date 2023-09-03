@@ -1,5 +1,5 @@
 
-const AppRoutes = [
+const AppRoutes: any[] = [
 ]
 
 export default AppRoutes;
