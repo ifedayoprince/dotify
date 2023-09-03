@@ -15,5 +15,5 @@ Framework7.use(Framework7React);
 ReactDOM.createRoot(document.getElementById('app')).render(
   <React.StrictMode>
     <AppMain/>
-  </React.StrictMode>,
+  </React.StrictMode>
 )

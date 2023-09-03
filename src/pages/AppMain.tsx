@@ -9,12 +9,10 @@ import {
 	View
 } from 'framework7-react';
 
-import LeftPanel from '../components/LeftPanel';
-import Boards from '../components/Boards';
 import AppRoutes from '../AppRoutes';
 
 let appConfig = {
-	name: "Teem",
+	name: "Dotify",
 	colors: {
 		primary: "#00ff0f"
 	},
@@ -32,7 +30,6 @@ const AppMain = () => {
 
 	return (
 		<App {...appConfig}>
-			<LeftPanel />
 			<View main>
 				<Page>
 					<Navbar large transparent sliding={false} >
@@ -42,10 +39,10 @@ const AppMain = () => {
 								iconMaterial="menu"
 							/>
 						</NavLeft>
-						<NavTitle sliding>Boards</NavTitle>
+						<NavTitle sliding>Books</NavTitle>
 						<NavRight>
 							<Link
-								searchbarEnable=".boards-searchbar"
+								searchbarEnable=".books-searchbar"
 								iconMaterial="search"
 							/>
 							<Link
@@ -53,16 +50,15 @@ const AppMain = () => {
 								iconMaterial="numbers"
 							/>
 						</NavRight>
-						<NavTitleLarge>Boards</NavTitleLarge>
+						<NavTitleLarge>Books</NavTitleLarge>
 						<Searchbar
-							className="boards-searchbar"
-							searchContainer=".boards"
+							className="books-searchbar"
+							searchContainer=".books"
 							searchIn=".item-text,.item-title"
 							expandable
 						/>
 					</Navbar>
 					
-					<Boards />
 				</Page>
 			</View>
 		</App >
