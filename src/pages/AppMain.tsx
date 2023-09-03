@@ -34,10 +34,12 @@ const AppMain = () => {
 				<Page>
 					<Navbar large transparent sliding={false} >
 						<NavLeft>
-							<Link
-								panelOpen="left"
-								iconMaterial="menu"
-							/>
+							<Searchbar
+														className="books-searchbar"
+														searchContainer=".books"
+														searchIn=".item-text,.item-title"
+														expandable
+													/>
 						</NavLeft>
 						<NavTitle sliding>Books</NavTitle>
 						<NavRight>
@@ -51,12 +53,7 @@ const AppMain = () => {
 							/>
 						</NavRight>
 						<NavTitleLarge>Books</NavTitleLarge>
-						<Searchbar
-							className="books-searchbar"
-							searchContainer=".books"
-							searchIn=".item-text,.item-title"
-							expandable
-						/>
+						
 					</Navbar>
 					
 				</Page>
