@@ -18,7 +18,7 @@ let appConfig = {
 	},
 	routes: AppRoutes,
 	dark: true,
-	theme:"ios",
+	theme:"md",
 	popup: { closeOnEscape: true },
 	sheet: { closeOnEscape: true },
 	popover: { closeOnEscape: true },
