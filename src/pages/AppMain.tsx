@@ -44,7 +44,9 @@ const AppMain = () => {
 						<NavTitle sliding>Books</NavTitle>
 						<NavRight>
 							<Link
-								sortableToggle=".sortable"
+								iconMaterial="numbers"
+							/>
+														<Link
 								iconMaterial="numbers"
 							/>
 						</NavRight>
