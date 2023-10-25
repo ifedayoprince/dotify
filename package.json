@@ -16,7 +16,7 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@types/node": "^20.4.2",
     "axios": "^1.4.0",
-    "crypto-js": "^4.1.1",
+    "crypto-js": "^4.2.0",
     "framework7": "^8.2.0",
     "framework7-react": "^8.2.0",
     "gsap": "^3.12.2",
